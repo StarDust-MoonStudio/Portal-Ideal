@@ -1,7 +1,13 @@
+:root {
+    --gray: rgb(82, 82, 82);
+    --light-gray: rgb(200, 200, 200);
+}
+
 body {
     padding: 0;
     margin: 0;
     font-family: 'Fredoka One', cursive;    
+    background-color: var(--light-gray);
 }
 
 a {
@@ -20,8 +26,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.2);
-    position: fixed;
+    background-color: var(--light-gray);
     width: 100%;
 }
 
@@ -32,8 +37,9 @@ a {
 }
 
 .content header span#lat-title{
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgb(82, 82, 82);
     height: 100%;
+    border-top-right-radius: 15px;
 }
 
 .content header span h1{
@@ -67,4 +73,50 @@ a {
 .content header span a#bar {
     font-size: 30px;
     margin:0;
+}
+
+#sec1a { 
+    height: 87.82vh;
+    display: table;
+    text-align: left;
+    width: 50%;
+    margin: 0;
+    float:left;
+    background-color: rgb(82, 82, 82);
+    border-top-right-radius: 100px;
+}
+
+#sec1a hgroup{
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    padding: 20px;
+}
+
+#sec1a h1 {
+    font-size: 45px;
+}
+
+#sec1a h1 strong {
+    color: red;
+}
+
+#sec1a h2 {
+    font-size: 25px;
+}
+
+#sec1b {
+    height: 87.82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: var(--light-gray);
+}
+
+#sec1b img {
+    display: flex;
+    flex: 1;
+    width: 50vh;
+    height: 50vh;
 }
