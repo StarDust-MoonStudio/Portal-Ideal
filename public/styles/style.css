@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One', cursive;    
 }
 
 a {
@@ -21,8 +21,8 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    border-bottom: 5px black solid; 
+    position: fixed;
+    width: 100%;
 }
 
 .content header span{
@@ -31,11 +31,22 @@ a {
     height: 40px;
 }
 
+.content header span#lat-title{
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 100%;
+}
+
+.content header span h1{
+    color: white;
+    font-weight: 100;
+}
+
+
 .content header span a#title {
     margin: 10px;
 }
 
-.content header img{
+.content header img#logo{
     width: 40px;
     height: 40px;
     margin-left: 15px;
@@ -50,7 +61,7 @@ a {
 .content header span#links img {
     width: 30px;
     height: 30px;
-    margin-right: 5px;
+    margin-left: 0px;
 }
 
 .content header span a#bar {
