@@ -113,16 +113,17 @@ a {
     height: 87.83vh;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     align-items: center;
     margin: 0;
     background-color: var(--light-gray);
 }
 
 #sec1b img {
-    display: flex;
-    flex: 1;
-    width: 50vh;
-    height: 50vh;
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 section {
@@ -213,5 +214,5 @@ section div#sec3b {
 }
 
 section div#sec3b img {
-    width: 65%;
+    width: 60%;
 }
