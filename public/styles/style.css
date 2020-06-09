@@ -1,12 +1,14 @@
 :root {
     --gray: rgb(82, 82, 82);
     --light-gray: rgb(200, 200, 200);
+    --fred: 'Fredoka One', cursive;
+    --zilla: 'Zilla Slab', serif;
 }
 
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Fredoka One', cursive;    
+    font-family: var(--fred);       
     background-color: var(--light-gray);
 }
 
@@ -77,7 +79,6 @@ a {
 
 #sec1a { 
     color: var(--light-gray);
-    font-weight: 100;
     height: 87.85vh;
     display: table;
     text-align: left;
@@ -89,6 +90,7 @@ a {
 }
 
 #sec1a hgroup{
+    font-family: var(--zilla);
     display: table-cell;
     vertical-align: middle;
     align-items: center;
@@ -96,7 +98,7 @@ a {
 }
 
 #sec1a h1 {
-    font-size: 45px;
+    font-size: 59px;
 }
 
 #sec1a h1 strong {
@@ -128,6 +130,8 @@ section {
 }
 
 #sec2 {
+    font-family: var(--zilla);
+    font-weight: 500;
     text-align: center;
     margin: 0;
     background-image: linear-gradient(to bottom, var(--gray), var(--gray), var(--light-gray)); 
@@ -136,6 +140,7 @@ section {
 }
 
 #sec2 h1 {
+    font-family: var(--fred);
     margin: 0;
     font-size: 30px;
     color: var(--light-gray);
@@ -163,7 +168,7 @@ section div#select a p {
     display: table-cell;
     vertical-align: middle;
     width: 10px;
-    font-size: 21px;
+    font-size: 25px;
 } 
 
 section div#select a p img {
