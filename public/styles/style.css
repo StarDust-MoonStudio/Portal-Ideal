@@ -63,11 +63,13 @@ p {
   background-color: var(--oxford-blue);
   height: 100%;
   border-top-right-radius: 15px;
+  width: 16%;
 }
 
 .content header span h1 {
   font-weight: 100;
   font-family: var(--fred);
+  font-size: 27px;
 }
 
 .content header span a#title {
@@ -75,8 +77,8 @@ p {
 }
 
 .content header img#logo {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   margin-left: 15px;
 }
 
@@ -87,13 +89,14 @@ p {
 }
 
 .content header span#links img {
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   margin-left: 0px;
 }
 
 .content header span#links a {
   color: var(--dodger-blue);
+  font-size: 14px;
 }
 
 .content header span a#bar {
@@ -102,7 +105,8 @@ p {
 }
 
 #sec1a {
-  height: 87.85vh;
+  height: 89vh;
+  padding-top: 10px;
   text-align: left;
   width: 50%;
   margin: 0;
@@ -120,7 +124,7 @@ p {
 }
 
 #sec1a h1 {
-  font-size: 62.6px;
+  font-size: 70px;
 }
 
 #sec1a h1 strong {
@@ -128,7 +132,7 @@ p {
 }
 
 #sec1a h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #sec1b {
@@ -344,3 +348,47 @@ section#sec5 div#sec5b img {
   margin-bottom: auto;
   width: 55%;
 }
+
+section#sec6 div#sec6a {
+    width: 60%;
+    float: left;
+    font-weight: 500;
+    text-align: left;
+    background-color: var(--oxford-blue);
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: 40px;
+}
+
+section#sec6 div#sec6a h1 {
+    margin: 20px 40px 20px 40px;
+    font-size: 50px;
+}
+
+section#sec6 div#sec6a p {
+    font-size: 200%;
+    line-height: 40px;
+    text-align: justify;
+    margin: 0 40px 40px 40px;
+}
+
+section#sec6 div#sec6b {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 40%;
+    float: left;
+    font-family: var(--zilla);
+    font-weight: 500;
+    text-align: center;
+    height: 59vh;
+  }
+  
+
+section#sec6 div#sec6b img {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 70%;
+  }
